@@ -1568,7 +1568,7 @@ BO_ 608 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_3 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_5 : 70|16@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_6 : 63|12@0+ (1,0) [0|255] "" XXX
+ SG_ Accel_Pedal_Depressed : 62|1@0+ (1,0) [0|255] "" XXX
 
 BO_ 672 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|3@0+ (1,0) [0|7] "" XXX
@@ -1583,3 +1583,6 @@ BO_ 1265 NEW_MSG_4: 8 XXX
 
 BO_ 1264 NEW_MSG_5: 8 XXX
  SG_ Vehicle_Spd : 14|14@0+ (1,0) [0|255] "" XXX
+
+BO_ 544 NEW_MSG_6: 8 XXX
+ SG_ Brake_Pedal_Pressure : 32|8@1+ (0.5,0) [0|500] "" XXX
